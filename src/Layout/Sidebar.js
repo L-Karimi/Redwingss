@@ -26,12 +26,12 @@ const Sidebar = ({ children }) => {
       icon: UilUsersAlt,
       heading: "Blood requests",
       path: "/request"
-    },
-    {
-      icon: UilPackage,
-      heading: "Update Donor",
-      path: "/updatedonor"
     }
+    // {
+    //   icon: UilPackage,
+    //   heading: "Update Donor",
+    //   path: "/updatedonor"
+    // }
 
   ]
   const [selected, setSelected] = useState();

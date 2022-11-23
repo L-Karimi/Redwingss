@@ -12,9 +12,9 @@ const Card = (props) => {
   return (
     <AnimateSharedLayout>
       {expanded ? (
-        <ExpandedCard param={props} setExpanded={() => setExpanded(false)} />
+        <ExpandedCard param={props} setExpanded={() => setExpanded(true)} />
       ) : (
-        <CompactCard param={props} setExpanded={() => setExpanded(false)} />
+        <CompactCard param={props} setExpanded={() => setExpanded(true)} />
       )}
     </AnimateSharedLayout>
   );
@@ -22,7 +22,7 @@ const Card = (props) => {
 
 // Compact Card
 function CompactCard({ param, setExpanded }) {
-  // const Png = param.png;
+  const Png = param.png;
   return (
     <motion.div
       className="CompactCard"
@@ -90,9 +90,9 @@ function ExpandedCard({ param, setExpanded }) {
       xaxis: {
         type: "datetime",
         categories: [
-          "2022-12-19",
-          "2022-03-19",
-          "2022-09-19",
+          "2022",
+          "2022",
+          "2022",
           "2022-02-19",
           "2022-06-19",
           "2022-10-19",

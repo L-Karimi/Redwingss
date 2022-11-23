@@ -69,6 +69,7 @@ const Donor =() => {
             <div className='error'>{errors.password?.type==='required'&& 'Full Name required'}</div>
             <div id='child'>
                 <label>Age</label>
+
             </div>
             <input id='input2' type='number'name='age' placeholder='Enter age' onChange={handleChange}/>
             <div className='error'>{errors.password?.type==='required'&& 'age required'}</div>

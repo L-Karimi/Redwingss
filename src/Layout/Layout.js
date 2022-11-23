@@ -11,9 +11,10 @@ import RightSide from "../components/RightSide/RightSide";
 const Layout = ({ children }) => {
     return (
         <div className="layout">
-            <Header />
-            <Sidebar />
-            <Footer />
+            <Header/>
+            <Sidebar/>
+            <Footer/>
+            <RightSide/>
             {children}
         </div>
     );

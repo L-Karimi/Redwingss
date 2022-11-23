@@ -15,7 +15,7 @@ const MainDash = () => {
 
       <h2>Track donors location</h2>
 
-  <RightSide/>
+     <RightSide/>
   
     </div>
   );
